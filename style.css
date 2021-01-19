@@ -1,0 +1,70 @@
+
+main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 100px;
+  }
+  
+  main h1 {
+    margin: 0 10px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+  
+  main h2 {
+    margin: 12px 10px;
+    border-bottom: 10px solid rgb(255, 28, 28);
+  }
+  
+  /* Mobile First */
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-align {
+    margin: 10px;
+  }
+  
+  /* Desktop design change */
+  
+  @media all and (min-width: 600px) {
+    section {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
+  }
+  
+  /* Contact Form */
+  
+  form {
+    padding-right: 6px;
+    /* stops input boxes to line up with contact form margin */
+  }
+  
+  form input, 
+  form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  form textarea {
+    height: 160px;
+  }
+  
+  form button:hover {
+      color:rgb(80, 80, 80);
+      /* change to color when hovering over buttons */
+  }
+  
+  
